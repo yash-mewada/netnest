@@ -1,0 +1,122 @@
+.Login-Page {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.image-container img {
+  object-fit: contain;
+}
+
+.Login-Form {
+  flex-basis: 50%;
+  /* add additional styles for the login form */
+}
+
+.LoginContainer {
+  width: 471px;
+  height: 631px;
+  background-color: #ece9f2;
+  border-radius: 48px;
+  margin-right: 8%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.LoginContainer h1 {
+  color: #412a7d;
+  font-size: 30px;
+  margin-top: 6%;
+}
+
+input[type="text"] {
+  width: 350px;
+  height: 60px;
+  border-radius: 24px;
+  border: 1.5px solid;
+  border-color: #412a7d;
+  margin-top: 10%;
+}
+
+input[type="password"] {
+  width: 350px;
+  height: 60px;
+  border-radius: 24px;
+  border: 1.5px solid;
+  border-color: #412a7d;
+  margin-top: 5%;
+}
+
+.LoginButton {
+  margin-top: 2%;
+  width: 350px;
+  height: 60px;
+  padding: 10px;
+  border: none;
+  background-color: #5a5adf;
+  color: white;
+  border-radius: 24px;
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 26px;
+  box-shadow: 0 13px #412a7d;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+}
+
+.LoginButton:hover {
+  background-color: rgb(116, 116, 236);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.LoginButton:active {
+  background-color: #5a5adf;
+  box-shadow: 0 9px #412a7d;
+  transform: translateY(4px);
+}
+
+h4 {
+  align-self: flex-end;
+  margin-right: 13%;
+  color: #412a7d;
+}
+
+.GoogleButton {
+  margin-top: 3%;
+  width: 350px;
+  height: 60px;
+  padding: 10px;
+  border: 1px solid #6d6d76;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 24px;
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 26px;
+  box-shadow: 0 13px #6d6d76;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+}
+
+.GoogleButton:hover {
+  background-color: rgb(231, 231, 240);
+  color: #000000;
+  cursor: pointer;
+}
+
+.GoogleButton:active {
+  background-color: rgb(231, 231, 240);
+  box-shadow: 0 9px #6d6d76;
+  transform: translateY(4px);
+}
+
+h3 {
+  margin-top: 8%;
+  font-size: 14px;
+}
